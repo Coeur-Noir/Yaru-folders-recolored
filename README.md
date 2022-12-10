@@ -17,4 +17,4 @@ From a folder, copy to ~/Desktop ( Bureau in my language ) files with matching n
 
 `find . -name 'folder-*-publicshare.png' -exec cp {} ~/Bureau/ \;`
 
-Nautilus ( is buggy as hell in Ubuntu 22.10 ) but offers easy batch renaming : select elments and hit F2.
+Nautilus ( is buggy as hell in Ubuntu 22.10 ) but offers easy batch renaming : select elements and hit F2.
