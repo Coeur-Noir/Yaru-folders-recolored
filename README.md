@@ -13,7 +13,7 @@ From a folder, resizing all .png and send them into another folder :
 
 `for i in $(ls *.png); do sudo convert -resize 32x32 $i /usr/share/icons/Yaru/32x32/places/$i; done`
 
-From a folder, copy to ~/Desktop file with matching names :
+From a folder, copy to ~/Desktop ( Bureau in my language ) files with matching names :
 
 `find . -name 'folder-*-publicshare.png' -exec cp {} ~/Bureau/ \;`
 
